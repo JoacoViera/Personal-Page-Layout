@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Joaquin Viera</title>
+    <title>Web Page</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -15,15 +15,15 @@
     <header>
         <div class="contenedor">
             <nav class="menu">
-                <a href="#">Acerca de</a>
-                <a href="#">Trabajos</a>
-                <a href="#">Contactos</a>
+                <a href="#about">About</a>
+                <a href="#projects">Works</a>
+                <a href="#contact">Contact</a>
             </nav>
 
             <div class="contenedor-texto">
                 <div class="texto">
-                    <h1 class="nombre">Joaquín Viera</h1>
-                    <h2 class="profesion">Desarrollador Web</h2>
+                    <h1 class="nombre">Matthew Murdock</h1>
+                    <h2 class="profesion">Web Developer</h2>
                 </div>
             </div>
         </div>
@@ -33,17 +33,17 @@
         <section class="acerca-de">
             <div class="contenedor">
                 <div class="foto">
-                    <img src="img/foto.jpg" width="115" height="115" alt="Luffy Logo">
+                    <img src="img/foto.png" width="115" height="115" alt="Luffy Logo">
                 </div>
             
-                <div class="texto">
-                    <h3 class="titulo">Acerca de</h3>
+                <div class="texto" id="about">
+                    <h3 class="titulo">About me</h3>
                     <p>Lorem ipsum, <span class="bold">dolor sit amet consectetur adipisicing elit</span>. Totam corrupti hic quidem. Quod dignissimos culpa minima quam aliquid error dolor. Nobis quibusdam magnam deleniti dolor laboriosam, nemo a optio ipsa.</p>               
                 </div>
             </div>
         </section>
 
-        <section class="trabajos">
+        <section class="trabajos" id="projects">
             <div class="contenedor">
                 <h3 class="titulo">Trabajos</h3>
                 <div class="contenedor-trabajos">                    
@@ -53,7 +53,7 @@
                         </div>
                         <div class="descripcion">
                             <p class="nombre">Lorem Impsum</p>
-                            <p class="categoria">HTML-CSS-PHP</p>
+                            <p class="categoria">HTML-CSS</p>
                         </div>
                     </div>
                     <div class="trabajo">
@@ -62,7 +62,7 @@
                         </div>
                         <div class="descripcion">
                             <p class="nombre">Lorem Impsum</p>
-                            <p class="categoria">HTML-CSS-PHP</p>
+                            <p class="categoria">Bootstrap</p>
                         </div>
                     </div>
                     <div class="trabajo">
@@ -71,7 +71,7 @@
                         </div>
                         <div class="descripcion">
                             <p class="nombre">Lorem Impsum</p>
-                            <p class="categoria">HTML-CSS-PHP</p>
+                            <p class="categoria">JQuery</p>
                         </div>
                     </div>
                     <div class="trabajo">
@@ -80,7 +80,7 @@
                         </div>
                         <div class="descripcion">
                             <p class="nombre">Lorem Impsum</p>
-                            <p class="categoria">HTML-CSS-PHP</p>
+                            <p class="categoria">HReact</p>
                         </div>
                     </div>
                     <div class="trabajo">
@@ -89,7 +89,7 @@
                         </div>
                         <div class="descripcion">
                             <p class="nombre">Lorem Impsum</p>
-                            <p class="categoria">HTML-CSS-PHP</p>
+                            <p class="categoria">React Native</p>
                         </div>
                     </div>
                     <div class="trabajo">
@@ -98,7 +98,7 @@
                         </div>
                         <div class="descripcion">
                             <p class="nombre">Lorem Impsum</p>
-                            <p class="categoria">HTML-CSS-PHP</p>
+                            <p class="categoria">Angular</p>
                         </div>
                     </div>
                     <div class="trabajo">
@@ -107,7 +107,7 @@
                         </div>
                         <div class="descripcion">
                             <p class="nombre">Lorem Impsum</p>
-                            <p class="categoria">HTML-CSS-PHP</p>
+                            <p class="categoria">Vue JS</p>
                         </div>
                     </div>
                     <div class="trabajo">
@@ -116,7 +116,7 @@
                         </div>
                         <div class="descripcion">
                             <p class="nombre">Lorem Impsum</p>
-                            <p class="categoria">HTML-CSS-PHP</p>
+                            <p class="categoria">WorPress</p>
                         </div>
                     </div>
 
@@ -127,12 +127,12 @@
 
     <footer>
         <section class="contacto">
-            <div class="contenedor">
-                <h3 class="titulo">Contactos</h3>
+            <div class="contenedor" id="contact">
+                <h3 class="titulo">Contact</h3>
                 <form action="" class="formulario">
-                    <input type="text" placeholder="Nombre" name="nombre" required>
-                    <input type="text" placeholder="Correo" name="correo" required>
-                    <textarea name="mensaje" placeholder="Mensaje:"></textarea>
+                    <input type="text" placeholder="Name" name="nombre" required>
+                    <input type="text" placeholder="Email" name="correo" required>
+                    <textarea name="mensaje" placeholder="Tell me about your project:"></textarea>
                     <input type="submit" class="boton" value="Enviar">
                 </form>
             </div>
