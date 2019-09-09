@@ -135,7 +135,7 @@ header .contenedor-texto .texto .profesion {
     font-size: 34px;
     line-height: 34px;
     margin-bottom: 40px;
-    font-weight: 300;
+    font-weight: 700;
     color: #323068;
     text-align: center;
 }
@@ -188,7 +188,7 @@ footer .contacto .titulo {
     font-size: 34px;
     line-height: 34px;
     margin-bottom: 40px;
-    font-weight: 300;
+    font-weight: 700;
     color: #3895ea;
     text-align: center;
 }
@@ -264,7 +264,7 @@ footer .redes-sociales a {
     font-size: 30px;
     display: block;
     padding: 30px 0;
-    border-radius: 3px;
+    border-radius: 100%;
     margin: 0 20px;
 }
 
