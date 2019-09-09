@@ -6,3 +6,5 @@ Just HTML and CSS
 Hope you've seen Daredevil :B
 
 ![alt tag](img/example.jpg)
+
+By the way .. this webpage use an old version of fontawesome where you had to download the files. I should update it... in a near future.
